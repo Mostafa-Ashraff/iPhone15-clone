@@ -58,6 +58,7 @@ useEffect(()=>{
         </h2>
         <div className="flex flex-col items-center mt-5">
           <div className="w-full h-[75vh] md:h-[90vh] overflow-hidden relative">
+            {/* <p className="w-full absolute h-full top-[50%] left-[40%] z-10">Move the iPhone to explore it!</p> */}
             <ModelView
               index={1}
               groupRef={small}
